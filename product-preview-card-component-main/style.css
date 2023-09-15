@@ -1,0 +1,103 @@
+.attribution {
+    font-size: 11px; text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.kutu{
+    background-color: white;
+    border-radius: 20px;
+    border-style: none;
+    position: fixed;
+    width: 500px;
+    height: 400px;
+    right:  33%;
+    top: 12%;
+    z-index: 1;
+}
+
+.resim{
+    border-radius: 15px 0px 0px 15px;
+    border-style: none;
+    position: fixed;
+    width: 230px;
+    height: 400px;
+    z-index: 2;
+}
+
+.yanAciklama{
+    border-radius: 0px 15px 15px 0px;
+    border-style: none;
+    position: fixed;
+    width: 270px;
+    height: 400px;
+    right: 33%;
+}
+
+.p{
+    font-family: 'Lucida Console', Lucida, monospace;
+    font-variant: small-caps;
+    letter-spacing: 5px;
+    font-size: 17px;
+    opacity: 0.5;
+
+    position: absolute;
+    left: 20px;
+    top: 2px;
+}
+
+.h2{
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    font-size: 30px;
+}
+
+.p1{
+    position: absolute;
+    left: 20px;
+    bottom: 150px;
+    opacity: 0.6;
+    font-size: 15px;
+    word-spacing: 3px;
+    line-height: 20px;
+}
+
+.p2{
+    color: hsl(158, 36%, 37%);
+    position: absolute;
+    left: 20px;
+    bottom: 80px;
+    font-size: 30px;
+}
+
+.p3{
+    position: absolute;
+    bottom: 110px;
+    right: 100px;
+    font-size: 13px;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#buy{
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 15px;
+    text-align: center;
+    border-style: none;
+    position: absolute;
+    left: 35px;
+    width: 200px;
+    bottom: 20px;
+
+}
+
+.buy{
+    color: white;
+}
